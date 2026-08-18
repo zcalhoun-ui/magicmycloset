@@ -1,0 +1,91 @@
+Matrix ID,Unique ID,Clothing Item,Spring,Winter,Fall,Summer,Patterned,Solid Color,Dress
+0001,A001,heart scarf,1,1,1,0,0,0,0
+0002,A002,blue cardigan,1,1,1,0,0,1,0
+0003,A003,brown purse,1,1,1,1,0,1,0
+0004,A004,blue sweater,1,1,1,0,0,1,0
+0005,A005,white hat,1,0,1,1,0,1,0
+0006,A006,umbrella,1,0,1,0,0,1,0
+0007,A007,earmuffs,0,1,0,0,0,1,0
+0008,A008,mittens,0,1,0,0,0,1,0
+0009,A009,striped sweater,1,1,1,0,1,0,0
+0010,A010,checkered skort,1,0,1,1,0,0,0
+0011,A011,layer white tank,1,1,1,1,0,1,0
+0012,A012,college hoodie,1,1,1,1,0,1,0
+0013,A013,red cardigan,1,1,1,0,0,1,0
+0014,A014,spiderman baseball cap,1,0,0,1,0,0,0
+0015,A015,purple vneck shrug,1,0,1,1,0,1,0
+0016,A016,off the shoulder blue shrug,1,1,1,0,0,1,0
+0017,A017,red blue stripe sweater,1,1,1,1,1,0,0
+0018,A018,orange corderoy,0,0,1,0,0,1,0
+0019,A019,white headband,1,1,1,1,0,1,0
+0020,A020,tortoiseshell barettes,1,1,1,1,1,0,0
+0021,A021,grey leggings,1,1,1,0,0,1,0
+0101,B001,Flare jeans,1,1,1,1,0,1,0
+0102,B002,Gray jeans,1,1,1,0,0,1,0
+0103,B003,baggy jeans,1,1,1,0,0,1,0
+0104,B004,low rise shorts,1,0,1,1,0,1,0
+0105,B005,baggy jorts,1,0,1,1,0,1,0
+0106,B006,gym short,1,0,1,1,0,1,0
+0107,B007,grey skort,1,0,1,1,0,1,0
+0108,B008,brown skirt,1,1,1,1,0,1,0
+0109,B009,green check shorts,1,0,1,1,1,0,0
+0110,B010,vintage shorts,1,0,1,1,0,1,0
+0111,B011,green jeans,1,1,1,1,0,1,0
+0112,B012,blue corderoys,1,1,1,0,0,1,0
+0113,B013,brown corderoys,1,1,1,0,0,1,0
+0114,B014,purple flowered dress skirt,0,0,0,1,1,0,0
+0115,B015,flowered skirt,1,0,0,1,1,0,0
+0116,B016,atossa dress bottom,1,0,1,1,0,1,0
+0117,B017,brown flare pants,0,1,1,0,0,1,0
+0118,B018,green sweatpants,0,1,1,0,0,1,0
+0119,B019,black denim skirt (REAL),1,0,1,1,0,1,0
+0120,B020 ,linen pants,1,0,1,1,0,1,0
+0121,B021,fake jeans ,1,1,1,0,0,1,0
+0122,B022,grey cargo shorts,1,0,0,1,0,1,0
+0123,B023,normal shape blue jeans,1,1,1,0,0,1,0
+0124,B024,black jeans,0,1,1,0,0,1,0
+0125,B025,pink skirt,1,0,0,1,1,0,0
+0126,B026,striped blue jeans,1,1,1,0,1,0,0
+,,,,,,,,,
+1001,T001,blue dress shirt,1,1,1,1,0,1,0
+1002,T002,off the shoulder gray sweater,1,1,1,0,0,1,0
+,,,,,,,,,
+1004,T004,fruit shirt,1,1,1,1,0,0,0
+1005,T005,gingham check button down,1,1,1,1,1,1,0
+1006,T006,miffy shirt,1,1,1,1,0,0,0
+1007,T007,white tank,1,1,1,1,0,1,0
+1008,T008,v neck top,1,1,1,1,0,1,0
+1009,T009,music note top,1,1,1,1,0,0,0
+1010,T010,nyc grey shirt,1,1,1,1,0,0,0
+1011,T011,white sweater,1,1,1,0,0,1,0
+1012,T012,green off shoulder top,1,0,1,1,0,1,0
+1013,T013,white tunic top,1,0,1,1,0,1,0
+1014,T014,purple flowered tunic,1,0,1,1,1,0,0
+1015,T015,japan soccer top,1,0,1,1,0,1,0
+1016,T016,pink flower tank,1,0,1,1,0,1,0
+1017,T017,leopard top,1,1,1,1,1,0,0
+1018,T018,white sweater dress,1,1,1,0,0,1,0
+1019,T019,flowered tight top,1,1,1,0,1,0,0
+1020,T020,one shoulder top,1,1,1,0,0,1,0
+1021,T021,u-shaped white tank,1,0,1,1,0,1,0
+1022,T022,purple flower short dress,1,1,1,1,0,1,0
+1023,T023,Redish purple sweater,1,1,1,0,1,1,0
+1024,T024,hype girlies shirt,0,0,0,1,0,0,0
+1025,T025,american eagle tank,1,0,0,1,1,0,0
+1026,T026,atossa dress,1,0,0,1,0,1,1
+1027,T027,grey v-neck dress,0,0,0,1,0,1,1
+1028,T028,grey v-neck layerable,1,1,1,0,0,1,0
+1029,T029,hearts purple tank,1,0,1,1,0,1,0
+1030,T030,grey v-neck sweater,0,1,1,0,0,1,0
+1031,T031,orange quarter zip,0,1,1,0,1,1,0
+1032,T032,black white layer top,1,1,1,0,0,1,0
+1033,T033,sayulita top,1,1,1,1,1,0,0
+1034,T034,beige bear tshirt,1,0,1,1,0,0,0
+1035,T035,white bear tshirt,1,0,1,1,0,0,0
+1036,T036,little twins tank,1,0,0,1,0,0,0
+1037,T037,yellow tank,1,1,1,0,1,0,0
+1038,T038,moon tarot top,1,1,1,1,0,0,0
+1039,T039,cat top,1,0,1,0,0,0,0
+1040,T040,harmony in colors,1,0,1,1,1,0,0
+1041,T041,brown y2k top,1,0,1,1,1,0,0
+1042,T042,blue art drawing top,1,1,1,1,1,0,0
