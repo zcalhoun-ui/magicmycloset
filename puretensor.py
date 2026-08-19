@@ -28,33 +28,15 @@ def wider(df, index_col, columns_col, values_col):
 
 script_dir = get_script_directory()
 identifier_path = os.path.join(script_dir, "identifier.csv")
-matrix_path = os.path.join(script_dir, "matrix.csv")
-output_path = os.path.join(script_dir, "matrix_numerical.csv")
+matrix_path = os.path.join(script_dir, "matrix_numerical.csv")
 
 # 2. Load the CSV files
 identifier_df = pd.read_csv(identifier_path)
-matrix_df = pd.read_csv(matrix_path)
+converted_matrix_df = pd.read_csv(matrix_path)
+# remove bad outfit connections
+converted_matrix_df = converted_matrix_df[converted_matrix_df['Rating'] != -1]
 
-# 3. FLIPPED MAPPING:
-# We now assume column 0 has the numerical targets and column 1 has the alphanumeric codes
-target_values = identifier_df.iloc[:, 0] 
-matrix_current_codes = identifier_df.iloc[:, 1].astype(str).str.strip().str.upper()
-
-# Create the map where the keys match what is currently in your matrix
-id_map = dict(zip(matrix_current_codes, target_values))
-
-# 4. Clean the Matrix Data to ensure a perfect text match with the keys
-for col in matrix_df.columns:
-    matrix_df[col] = matrix_df[col].astype(str).str.strip().str.upper()
-
-# 5. Convert every value in the matrix using the flipped dictionary map
-converted_matrix_df = matrix_df.replace(id_map)
-
-# 6. Save the result
-converted_matrix_df.to_csv(output_path, index=False)
-
-
-# 7. Convert columns to integer coordinates
+# 3. Convert columns to integer coordinates   
 converted_matrix_df['Top'] = converted_matrix_df['Top'].astype(int)
 converted_matrix_df['Bottom'] = converted_matrix_df['Bottom'].astype(int)
 converted_matrix_df['A/L'] = converted_matrix_df['A/L'].astype(int)
@@ -85,7 +67,6 @@ print("Successfully populated the tensor")
 tl.set_backend('numpy')
 
 # 2. Use your existing environment variable directly
-# (Assuming 'scorer_tensor' has already been created and populated)
 original_tensor = scorer_tensor
 
 # 3. Dynamically read your true dimensions
