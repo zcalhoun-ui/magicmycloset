@@ -1,9 +1,9 @@
-## Welcome to magicmycloset! 
+# Welcome to magicmycloset! 
 This project combines algorithms, web design, and fashion. Using my actual clothing and outfits, I built a sparse tensor of top, bottom, and accessories/layering combinations to recommend new outfits. 
 
 I envision this project being visible as a mildly interactive website.
 
-August 18th, 2026 Update
+### August 18th, 2026 Update
 Currently, I have completed the following steps:
 
 1. Initial data collection: I built two spreadsheets, one with each item and some metadata, the second with 270 existing outfits.
@@ -20,7 +20,7 @@ That probably explains why some of its top outfits sound really cute, like  [blu
 I need to fix my python writing so that it is more function based and easy to read. Once I do that, I will re-run all of this on a filtered to rating == 1 or 0 version of the first data set.
 
 
-Updated August 18th, 2026 -- Evening/August 19th, 2026
+### Updated August 19th, 2026
 Yesterday, I ran the SVD algorithm with the -1s and 0s filtered out, and it did much better.
 
 Next, I decided to build a small machine learning algorithm. Most of the prep code is exactly the same, except that I used PARAFAC decomposition instead of tucker-d. 
