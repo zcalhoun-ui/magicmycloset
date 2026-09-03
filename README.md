@@ -43,4 +43,6 @@ Okay: current files
 4. puretensor.py: simple svd here
 5. matrix_numerical.csv: redo of matrix without any characters in numbers
 6. matrix.csv: first matrix. i unfortunately built this with unique identifiers containing letters, so had to be converted for matrix math
-   
+### Updated Sep 3 
+Was so nice to work on this again! Have been active on frontend and art mainly. Have not been active enough at all because I unfortunately have a life. Except today lolol this is like 6 hours worth of work. 
+I added the filtering.py file. This is the same lra algorithm, have decided to focus on this, but restructured better in functions with a main(). I also mocked up taking in a season input from the user. It runs the algorithm using only the items marked to be appropriate for that season, so its noticing different connections in every season. This does make the overall thing a little more separated, might be nice to have a general option too? Unfortunately, the current code is very built around the seasonal version. Could possibly keep the filtering and puretensor files and go between them. Anyways, happy with this work! Ignore krita files, I forgot to add them to the .gitignore </3
