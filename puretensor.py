@@ -2,7 +2,29 @@ import os
 import pandas as pd
 import numpy as np
 import tensorly as tl
-from tensorly.decomposition import tucker  
+from tensorly.decomposition import tucker 
+
+def get_season():
+    """Inputs: user input
+    Outputs: string"""
+    cite = True
+    while cite:
+        twoplus = str(input("Please choose a season. For simplicity's sake, choose 1 for winter, 2 for spring, 3 for summer, or 4 for fall. "))
+        while twoplus not in ["1", "2", "3", "4"]:
+            twoplus = str(input("Oops! Please press one of these 4 numbers: "))
+        if twoplus == "1":
+            cite = False
+            file = "Winter"
+        elif twoplus == "2": 
+            cite = False
+            file = "Spring"
+        elif twoplus == "3":
+            cite = False
+            file = "Summer"
+        elif twoplus == "4":
+            cite = False
+            file = "Winter"
+        return file
 
 # 1. Get the script directory and build file paths
 def get_script_directory():
@@ -129,8 +151,9 @@ print(recommendations_df.to_string(index=False))
 long_recommendations = pivot_longer(
     recommendations_df,
     id_vars=['Match_Confidence_Score'],
-    var_name='Category',
-    value_name='Index'
+    value_name='Index',
+    var_name='Category'
+    
 )
 print(long_recommendations.head(10))
 
@@ -153,6 +176,8 @@ wide_df = wider(
 wide_df = wide_df.sort_values(by='Match_Confidence_Score', ascending=False)  # Sort by confidence score
 
 print(wide_df)  # Display the first 8 rows of the wide format dataframe
+
+
 
 
 
